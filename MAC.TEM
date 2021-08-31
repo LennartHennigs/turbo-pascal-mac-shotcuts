@@ -1,0 +1,57 @@
+/* 
+------------------------------------------------------------
+More modern (Mac) Keyboard Shortcuts
+for the Turbo Pascal 7.0 IDE
+
+L. Hennigs - 08/21
+
+This will add more current keyboard shortcurs to the IDE.
+
+How to install:
+ TEMC.EXE MAC.TEM TURBO.TP 
+
+For more details see 
+- https://pl.wikipedia.org/wiki/Teml
+- http://pascal.net.ru/TEML-predefined-editor-commands+(en)
+- https://studfile.net/preview/1512545/
+
+------------------------------------------------------------
+*/
+
+MACRO M_SelectAll               /* CTRL-a */
+    HomeCursor;
+    SetBlockBeg;
+    EndCursor;
+    SetBlockEnd;
+END;
+
+CTRL-x:         ClipCut;
+CTRL-c:         ClipCopy;
+CTRL-v:         ClipPaste;
+CTRl-BkSp:      DeleteBlock;
+ESC:            HideBlock;
+
+CTRL-a:         M_SelectAll;
+
+CTRL-o:         OpenFile;   
+CTRL-n:         OpenFile;           /* better than nothing */
+CTRL-d:         ChangeDirectory;    /* not standard */
+CTRL-s:         SaveFile;
+
+CTRL-w:         CloseWindow;
+CTRL-q:         Quit;
+
+CTRL-f:         GetFindString;
+CTRL-g:         RepeatSearch;
+
+CTRL-r:         RunProgram;
+
+CTRL-z:         UnDo;
+CTRL-Z:         ReDo;
+
+/*
+todo:
+
+CRTl-SHIFT-ArLe Select to beginning of line
+CRTl-SHIFT-ArRi Select to end of line
+*/
