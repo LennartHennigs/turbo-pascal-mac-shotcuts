@@ -6,9 +6,12 @@ This is a _Turbo Pascal Marcro Language_ file thtat adds current DOS/Mac-like Ke
 
 ## How to install
 - Go to the bin folder of your TP7 installation
-- Run ´TEMC.EXE MAC.TEM TURBO.TP´
+- Run `TEMC.EXE MAC.TEM TURBO.TP`
 - This will add the shortcuts to the (default) TURBO.TP settings file
 - Afterwards the shortcuts will work, even though they will not be shown in the dropdown menus
+
+## Why?
+Because I found old Pascal programs of mine and using the IDE was a neat but pain. So I decided to fix it.
 
 
 ## Shortcuts
