@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a _Turbo Pascal Marcro Language_ file thtat adds current DOS/Mac-like Keyboard shortcuts to the Borland Turbo Pascal 7.0 IDE.
+This is a _Turbo Pascal Marcro Language_ file that adds current DOS/Mac-like Keyboard shortcuts to Borland's Turbo Pascal 7.0 IDE.
 
 ## How to install
 - Go to the bin folder of your TP7 installation
